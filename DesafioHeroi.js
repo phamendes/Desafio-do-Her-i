@@ -8,7 +8,7 @@ class Heroi {
 //Aqui o ataque
     atacar() {
         let ataque;
-        switch (this.tipo.toLowerCase()) {
+        switch (this.tipo) {
             case 'mago':
                 ataque = 'usou magia';
                 break;
