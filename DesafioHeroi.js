@@ -1,10 +1,11 @@
+//feita a classe para o Herrói
 class Heroi {
     constructor(nome, idade, tipo) {
         this.nome = nome;
         this.idade = idade;
         this.tipo = tipo;
     }
-
+//Aqui o ataque
     atacar() {
         let ataque;
         switch (this.tipo.toLowerCase()) {
@@ -27,7 +28,7 @@ class Heroi {
     }
 }
 
-// Exemplo de uso:
+// Exemplo de uso
 const heroi1 = new Heroi('Arthur', 17, 'guerreiro');
 heroi1.atacar();
 
